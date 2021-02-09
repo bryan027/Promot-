@@ -1,0 +1,44 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  body{
+      background-color: #2E6171;
+  }
+  p{
+      color: #ffffff;
+  }
+  h3{
+      color: #B185A7;
+  }
+  .jumbotron {
+    background-image: url("./assets/blue.jpg");
+    background-size: cover;
+  }
+  img{
+    position:fixed; 
+    right:820px; 
+  }
+  img.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 350px;
+    height:300px;
+    border-radius: 50%;
+  }
+  img.strong {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 350px;
+    height:300px;
+    border-radius: 8px;
+  }
+  img.cod {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 350px;
+    height:300px;
+    border-radius: 8%;
+  }
